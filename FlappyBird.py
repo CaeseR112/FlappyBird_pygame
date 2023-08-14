@@ -1,14 +1,16 @@
 import pygame
+from sys import exit
 
 pygame.init()
 screen = pygame.display.set_mode((1280, 720))
-running = True
+pygame.display.set_caption('FlappyBird') 
+
+
 
 #Quitting pygame window
-while running:
+while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            running = False
+            pygame.quit()
+            exit()
 
-screen.fill("white")
-asurf = pygame.image.load(bg.jpg)
