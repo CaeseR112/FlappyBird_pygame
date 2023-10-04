@@ -1,2 +1,2 @@
-# TicTacToe_pygame
-tic tac toe game create with python using pygame
+# Flappy Bird 
+Flappy bird mobile game created with python using pygame
